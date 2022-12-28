@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Pizzapp</string>
+    <string name="helloTitle">Hello,</string>
+    <string name="store_title">Store</string>
+    <string name="location_title">Location</string>
+    <string name="name_title">Your Name</string>
+    <string name="name_hint">Please fill your name</string>
+    <string name="submit">Submit</string>
+    <string name="btn_menu">See Menus</string>
+    <string name="img_store">IMG STORE</string>
+    <string name="icon_user">Icon User</string>
+    <string name="image1_title">Pepperoni Pizza</string>
+    <string name="image1_desc">Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat</string>
+    <string name="image2_title">Spaghetti</string>
+    <string name="image2_desc">Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental</string>
+    <string name="image3_title">Burger</string>
+    <string name="image3_desc">Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal</string>
+    <string name="image4_title">Steak</string>
+    <string name="image4_desc">Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat</string>
+    <string name="papperoni_price">66.000,00</string>
+    <string name="spaghetti_price">50.000,00</string>
+    <string name="burger_price">35.000,00</string>
+    <string name="steak_price">70.000,00</string>
+    <string name="papperoni_detail_desc">Pepperoni pizza adalah pizza yang memiliki topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda</string>
+    <string name="spaghetti_detail_desc">Spageti adalah salah satu jenis pasta yang berbentuk panjang, tipis, silindris, dan padat, yang jika diperhatikan menyerupai mie pada umumnya. Ini adalah makanan pokok dalam masakan Italia tradisional. Spaghetti ini cocok untuk santap siang ataupun malam anda</string>
+    <string name="burger_detail_desc">Hamburger atau burger adalah sejenis roti berbentuk bundar yang diiris dua, dan di tengahnya diisi dengan patty yang biasanya diambil dari daging, kemudian sayur-sayuran berupa selada, tomat dan bawang bombai. Sebagai sausnya, hamburger diberi berbagai jenis saus seperti mayones, saus tomat dan sambal, serta moster. Barger ini sangat cocok disantap oleh setiap kalangan</string>
+    <string name="steak_detail_desc">Steik adalah sepotong besar daging, biasanya daging sapi. Daging merah, dada ayam, dan ikan sering kali dipotong menjadi steik. Kebanyakan steik dipotong tegak lurus dengan serat otot, menambah kelegitan daging. Steik biasanya dimasak dengan dipanggang, meskipun dapat digoreng atau di-"broil". Steik ini cocok untuk santap siang ataupun malam anda</string>
+
+    <string name="order_detail">Order Detail</string>
+    <string name="nama_pemesan">Asep</string>
+    <string name="storeTitle">Store:</string>
+    <string name="isi_toko_order">Cihampelas</string>
+    <string name="isiOrder">Papperoni Pizza telah dipesan</string>
+    <string name="pengirimanTitle">Pengiriman</string>
+    <string name="take_away">Ambil Sendiri</string>
+    <string name="fast_deliver">Fast delivery (Minimal 30 Menit Sampai)</string>
+    <string name="btn_done">Done</string>
+    <string name="ordered">Terima kasih Pa Asep sudah memesan ditoko kami, pesanan Pepperoni Pizza anda dikirim menggunakan Fast Delivery </string>
+    <string name="priceTitle">Price: Rp.</string>
+    <string name="pesanan"> telah dipesan</string>
+    <string name="img_detail">IMG DETAIL</string>
+
+    <string-array name="cities_array">
+        <item>---Pilih Kota---</item>
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+        <item>Cileunyi</item>
+        <item>Cicaheum</item>
+    </string-array>
+</resources>

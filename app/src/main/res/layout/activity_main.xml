@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainAcivity">
+
+
+    <ImageView
+        android:id="@+id/pizzaImg"
+        android:layout_width="223dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="31dp"
+        android:contentDescription="@string/img_store"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rm_pizza_1" />
+
+    <TextView
+        android:id="@+id/storeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="@string/store_title"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/dropdownCity"
+        app:layout_constraintTop_toBottomOf="@+id/pizzaImg" />
+
+    <Spinner
+        android:id="@+id/dropdownCity"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="2dp"
+        android:dropDownWidth="320dp"
+        android:entries="@array/cities_array"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@id/pizzaImg"
+        app:layout_constraintStart_toStartOf="@id/pizzaImg"
+        app:layout_constraintTop_toBottomOf="@+id/storeTitle" />
+
+    <TextView
+        android:id="@+id/nameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/name_title"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/inputNama"
+        app:layout_constraintTop_toBottomOf="@+id/dropdownCity" />
+
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="@string/name_hint"
+        android:shadowRadius="3"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/pizzaImg"
+        app:layout_constraintStart_toStartOf="@id/pizzaImg"
+        app:layout_constraintTop_toBottomOf="@+id/nameTitle" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/btn_color"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/btn_color"
+        app:layout_constraintStart_toStartOf="@id/inputNama"
+        app:layout_constraintTop_toBottomOf="@id/inputNama"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

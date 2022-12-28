@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/icon_user"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="11dp"
+        android:contentDescription="@string/icon_user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_icon" />
+
+    <TextView
+        android:id="@+id/user_icon_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:text="@string/helloTitle"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_user"
+        app:layout_constraintStart_toEndOf="@id/icon_user"
+        app:layout_constraintTop_toTopOf="@+id/icon_user" />
+
+    <TextView
+        android:id="@+id/nama_pemesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/nama_pemesan"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_user"
+        app:layout_constraintStart_toEndOf="@id/user_icon_label"
+        app:layout_constraintTop_toTopOf="@+id/icon_user" />
+
+    <ImageView
+        android:id="@+id/image_toko"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/icon_user"
+        app:srcCompat="@drawable/main_1" />
+
+    <TextView
+        android:id="@id/storeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/store_title"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_toko" />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="19dp"
+        android:text="Cihampelas"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/storeTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/locationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/location_title"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/storeTitle"
+        app:layout_constraintTop_toBottomOf="@id/storeTitle" />
+
+    <ImageView
+        android:id="@+id/location_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="19dp"
+        android:tint="@color/text_color"
+        app:layout_constraintBottom_toBottomOf="@id/locationTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/locationTitle"
+        app:srcCompat="@drawable/location_icon" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find on Maps"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@id/locationTitle"
+        app:layout_constraintEnd_toStartOf="@id/location_icon" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_menu"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/btn_color"
+        app:backgroundTint="@color/btn_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/locationTitle"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
